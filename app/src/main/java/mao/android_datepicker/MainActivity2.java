@@ -29,7 +29,7 @@ public class MainActivity2 extends AppCompatActivity
             public void onClick(View v)
             {
                 int year = datePicker.getYear();
-                int month = datePicker.getMonth();
+                int month = datePicker.getMonth() + 1;
                 int dayOfMonth = datePicker.getDayOfMonth();
                 textView.setText("当前选择的是" + year + "年" + month + "月" + dayOfMonth + "日");
             }
